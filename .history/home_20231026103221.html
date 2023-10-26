@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhromanon</title>
     <link rel="stylesheet" href="style.css">
@@ -27,12 +26,7 @@
     <nav>
         <div class="navbar">
             <div class="logo">Bhromaon</div>
-            <div class="burger-menu" onclick="toggleMenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <ul class="nav-links" id="navLinks">
+            <ul class="nav-links">
                 <li><a href="#">Who We Are</a></li>
                 <li><a href="#">What We Do</a></li>
                 <li><a href="#">Travel With Us</a></li>
@@ -45,24 +39,17 @@
             <div class="centreaza">
                 <div class="nustiu">
                     <h2>Why Choose Us</h2>
-                    <p>
-                        Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee.
-                        <br>
-                        <br>
-                        Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire.
-                    </p>
-                    <button class="but2">
-                        <img src="imgs\Rectangle 8.svg" alt="rectangle">
-                    </button>
+                    <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee <br> <br> Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
+                    <button class="but2"> <img src="imgs\Rectangle 8.svg" alt="rectangle"></button>
+
                 </div>
-                <div class="felx_img">
-                    <img class="Why__cabana" src="imgs\Imagecabna.png" alt="cabana">
-                    <img class="Why__munti" src="imgs\image 1.png" alt="munti">
-                </div>
-            </div>
+            </div> 
         </aside>
+        <div class="felx_img">
+            <img class="Why__cabana" src="imgs\Imagecabna.png" alt="cabana">
+            <img class="Why__munti" src="imgs\image 1.png" alt="munti">
+        </div>
     </section>
-    
     <section class="Search_Places">
         <div class="div1">
             <img src="imgs\Combined shape 831.svg" alt="lupa">
@@ -88,16 +75,12 @@
         
     </section>
     <section class="across">
-        
-            <div class="across_title">
-                <h2>What Our  Tourist Say</h2>
-            </div>
-            <div class="randomguy"></div>
-            <div class="randomcoment">
-                <h3>Sam Sumon</h3>
-                <p> <img src="imgs\qoute-mark.svg" alt=""> But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
-            </div>
-        
+        <h2>What Our  Tourist Say</h2>
+        <div class="randomguy"></div>
+        <div class="randomcoment">
+            <h3>Sam Sumon</h3>
+            <p> <img src="imgs\qoute-mark.svg" alt=""> But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</p>
+        </div>
     </section>
     <footer>
         <div class="upper_footer">
@@ -112,23 +95,14 @@
             </div>
         </div>
     </footer>
-    <script>var burgerMenu = document.getElementById("burgerMenu");
+    <script>function toggleMenu() {
         var navLinks = document.getElementById("navLinks");
-        
-        burgerMenu.addEventListener("click", function () {
-            if (navLinks.style.display === "block") {
-                navLinks.style.display = "none";
-            } else {
-                navLinks.style.display = "block";
-            }
-        });
-        var burgerMenu = document.getElementById("burgerMenu");
-        var navLinks = document.getElementById("navLinks");
-
-        burgerMenu.addEventListener("click", function () {
-            navLinks.classList.toggle("open"); // Toggle the "open" class to show/hide the menu
-        });        
-    
+        if (navLinks.style.display === "block") {
+            navLinks.style.display = "none";
+        } else {
+            navLinks.style.display = "block";
+        }
+    }
     </script>
 </body>
 </html>

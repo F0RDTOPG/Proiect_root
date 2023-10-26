@@ -167,11 +167,11 @@ header{
     height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    position: relative;
 }
 
 .Why__munti {
-    width: 20vw;
+    width: 15vh;
     height: 20vh;
 }
 
@@ -181,32 +181,29 @@ header{
 
 .Why_chose_us aside {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
-    
 }
 
 .felx_img {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
-    width: 360px;
 }
 
 .nustiu {
-    width: 50vw;
+
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-left: 15vw;
 }
 
 .Why__cabana {
-    width: 25vw;
+    width: 15vw;
     height: 20vh;
-    margin-left: 5vh;
 }
 
 .Why_chose_us p {
@@ -323,14 +320,15 @@ header{
     width: 100vw;
     height: 700px;
     background-attachment: fixed; 
-    justify-content: flex-end;
-    align-items:center;
 }
 .conquesta{
     width: 543px;
     height: 374px;
     background-color: rgba(35, 35, 35, 0.9);
-    margin-right: 13vw;  
+    margin-top: 10%;
+    margin-left: 60%;
+    
+    
 }
 .but3{
     color: var(--white);
@@ -391,6 +389,7 @@ header{
     margin-left: 32px;
 }
 .Spain p{
+    width: 508px;
     color: #E8E8E8;
     font-family: Josefin Sans;
     font-size: 16px;
@@ -399,6 +398,9 @@ header{
     line-height: 26px; /* 162.5% */
     margin-left: 32px;
     margin-bottom: 46px;
+    
+}
+.conquesta{
     
 }
 .across{
@@ -433,8 +435,8 @@ header{
     font-size: 36px;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 5%;
-    margin-left: 40%;
+    margin-top: 128px;
+    margin-left: 690px;
     width: 490px;
     height: 30px;
     
@@ -523,17 +525,8 @@ footer{
     margin-top: 70px;
     width: 12px;
 }
-.burger-menu {
-    display: none;
-    cursor: pointer;
-    padding: 15px;
-}
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px 0;
-}
+
+  
 
 /* Default styles for larger screens */
 .nav-links {
@@ -560,104 +553,10 @@ footer{
         line-height: 26px;
         letter-spacing: 2.8px;
         border: none;
-        margin: 10px 50vh;
+        justify-content: center;
     }
     .Birdimg{
         display: none;
     }
-    .but1{
-        display: none;
-    }
-    .burger-menu {
-        margin-right: 5vw;
-        display: block;
-    }
-    .burger-menu.open {
-        display: block; 
-    }
-    .centreaza{
-        display: flex;
-        flex-direction: column;
-    }
-    .Why__munti {
-        width: 200px;
-        height: 20vh;
-    }
-    .felx_img{
-        margin-top: 2vw;
-        flex-wrap: nowrap;
-        
-    }
-    .nustiu h2{
-        width: 100vw;
-    }
-    .Why__cabana{
-        width: 200px;
-    }
-    .Why_chose_us{
-        height: 800px;
-    }
-    .Search_Places{
-        height: 500px;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 2vh;
-        align-items:center;
-    }
-    .Search_Places p{
-        width: 300px;
-    }
-    .Spain{
-        justify-content: center;
-    }
-    .centreaza p{
-        font-size: 18px;
-    }
-    .conquesta{
-        margin: auto;
-        width: 380px;
-        height: 450px;
-    }
-    .randomguy{
-        display:none ;
-    }
-    .across h2{
-        position: absolute;
-        color: #FFF;
-        text-align: center;
-        font-family: Aleo;
-        font-size: 26px;
-        line-height: 26px;
-        margin: 10%;
-        width: 310px;
-        height: 30px;
-        
-    }
-    .across{
-        flex-direction: column;
-    }
-    .randomcoment{
-        flex-direction: column;
-        margin-top: 100px;
-        height:400px;
-        
-    }
-    .Spain p{
-        font-size: 20px;
-    }
-    .Spain h3{
-        font-size: 26px;
-    }
-    .randomcoment p{
-        margin: 1%;
-        width: 350px;
-        font-size: 20px;
-    }
-    .randomcoment h3{
-        font-size: 26px;
-    }
 }
-    
-
-
 

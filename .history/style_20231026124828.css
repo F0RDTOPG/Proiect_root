@@ -330,7 +330,7 @@ header{
     width: 543px;
     height: 374px;
     background-color: rgba(35, 35, 35, 0.9);
-    margin-right: 13vw;  
+    margin-right: 3vw;  
 }
 .but3{
     color: var(--white);
@@ -610,9 +610,6 @@ footer{
     .Spain{
         justify-content: center;
     }
-    .centreaza p{
-        font-size: 18px;
-    }
     .conquesta{
         margin: auto;
         width: 380px;
@@ -639,21 +636,12 @@ footer{
     .randomcoment{
         flex-direction: column;
         margin-top: 100px;
-        height:400px;
+        height:500px;
         
-    }
-    .Spain p{
-        font-size: 20px;
-    }
-    .Spain h3{
-        font-size: 26px;
     }
     .randomcoment p{
         margin: 1%;
         width: 350px;
-        font-size: 20px;
-    }
-    .randomcoment h3{
         font-size: 26px;
     }
 }
